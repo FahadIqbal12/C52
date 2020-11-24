@@ -1,0 +1,38 @@
+
+ h1{text-align: center;
+     color:white;
+ 
+}
+body{
+    background-image: url("537582.jpg");
+}
+.header{
+    background-image: url("need_for_speed_heat_lamborghini-wallpaper-1366x768.jpg");
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-right: 30px;
+
+}
+.menu a{
+    margin-left: 20px;
+}
+a:link{
+color: rgb(255, 255, 255);
+}
+a:visited{
+color: rgb(245, 245, 245);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.item img{
+    opacity:0.2;
+}
+.item:hover img{
+    opacity:1
+}
